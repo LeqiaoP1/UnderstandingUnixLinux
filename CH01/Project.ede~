@@ -1,0 +1,17 @@
+;; Object ch01
+;; EDE project file.
+(ede-proj-project "ch01"
+  :name "ch01"
+  :file "Project.ede"
+  :targets (list 
+   (ede-proj-target-makefile-program "more01"
+    :name "more01"
+    :path ""
+    :source '("more01.c")
+    )
+   (ede-proj-target-makefile-program "more02"
+    :name "more02"
+    :path ""
+    )
+   )
+  )
